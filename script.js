@@ -1,19 +1,29 @@
 "use strict";
-let num; // объявим переменную 
-num = 123; // присвоим ей значение
-alert(num); // выведем значение на экран 
+// задание 1
+let a = 10;
+let b = 2;
+alert(a + b);
+alert(a - b);
+alert(a * b);
+alert(a / b);
 
-let a = 5 + 7;
-alert(a); // выведет 12
+// задание 2
+let c = 10;
+let d = 5;
+let result = c + d;
+alert(result);
 
-let b = 7-5;
-alert(a); // выведет 2
+// задание 3
+let e = 1;
+f = 2;
+j = 3;
+alert(e + f + j);
 
-let c = 7 * 5;
-alert(c); // выведет 35
-
-let d = 7 / 5;
-alert(d); // выведет 1,4
-
-let e = 1 + 2 + 4;
-alert(e); // выведет 7
+// задание 4
+let z = 10;
+let x = 5;
+result = z + x;
+alert(result);
+let v = 7;
+result = (c + d);
+alert(result);
