@@ -1,18 +1,16 @@
 "use strict";
-// задание 1
-let str = 'abcde';
 
-alert(str[0]); // выведет 'a'
-alert(str[2]); // выведет 'c'
-alert(str[4]); // выведет 'e'
+// задание 1
+let str = 'edem';
+let last = str.length - 1; // номер последнего символа
+alert(str[last]); // выведет 'm'
 
 // задание 2
-alert(str[4]); // выведет 'e'
-alert(str[3]); // выведет 'd'
-alert(str[2]); // выведет 'c'
-alert(str[1]); // выведет 'b'
-alert(str[0]); // выведет 'a'
+let a = 'asanov';
+let b = a.length - 2; // номер предпоследнего символа
+alert(a[b]); // выведет 'o'
 
 // задание 3
-let num = 3;
-alert(str[num]);
+a = 'asanov';
+b = a.length  -3; // номер предпоследнего символа
+alert(a[b]); // выведет 'n'
