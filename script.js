@@ -1,5 +1,3 @@
 "use strict";
-// задание 1
-let a = 5;
-let b = 15;
-alert(a ** b); 
+let str = 'Edem Asanov';
+alert(str); // выведет Edem Asanov
