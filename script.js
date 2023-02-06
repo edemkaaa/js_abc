@@ -1,25 +1,27 @@
 "use strict";
-"use strict";
-let str = `abc
-def`; 
-alert(str);
-
-let a, b, c,d; 
-
-
-a = 'java'.length;
-b = 'script';
-c = 'hello';
-d = ' world';
+// задание 1
+let a;
 alert(a);
-alert(c+d);
 
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa${str1}bbb${str2}ccc`;
-alert(txt);
+// задание 2
+let b = null;
+alert(b);
 
-let abc = `f
-g
-k
-`;
+// задание 3
+let c = true;
+alert(c);
+
+// задание 4
+let d = false;
+alert(d);
+
+// задание 5
+let z = 'edem';
+let x = '5';
+alert(z * x);
+
+// задание 6
+alert( 10 / 0);
+
+// задание 7
+alert( -10 / 0);
