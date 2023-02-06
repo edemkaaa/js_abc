@@ -1,4 +1,5 @@
 "use strict";
-let a = 13;
-let b = 6;
-alert(a % b);
+// задание 1
+let a = 5;
+let b = 15;
+alert(a ** b); 
