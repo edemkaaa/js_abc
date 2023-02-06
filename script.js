@@ -1,10 +1,8 @@
 "use strict";
-let num;
-num = 123;
-alert(num); 
+// задание 1
+let a = -100;
+alert(a);
 
-let a, b, c; // объявляем все 3 переменные
-
-a = 1.5;
-b = 0.75;
-alert(a - b);
+// задание 2
+let b = 50;
+alert(-b);
