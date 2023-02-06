@@ -1,12 +1,18 @@
 "use strict";
 let a, b, c, d, result, str;
 
-// Присваиваем переменным значения:
-a = 55;
-b = 51;
-alert(String(a) + String(b));
-a = 63;
-alert(String(a).length);
-a = 332;
-b = 1;
-alert(String(a).length + String(b).length); 
+// задание 1
+alert(true + 3);
+
+// задание 2
+alert(true + true);
+
+// задание 3
+alert(true - true);
+
+// задание 4
+alert(true + false);
+
+// задание 5
+alert('1' + true);
+
