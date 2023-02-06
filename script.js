@@ -1,29 +1,16 @@
 "use strict";
-// задание 1
-let a = 10;
-let b = 2;
-alert(a + b);
-alert(a - b);
-alert(a * b);
-alert(a / b);
+let num;
+num = 123;
+alert(num); 
 
-// задание 2
-let c = 10;
-let d = 5;
-let result = c + d;
-alert(result);
+let a, b, c; // объявляем все 3 переменные
 
-// задание 3
-let e = 1;
-f = 2;
-j = 3;
-alert(e + f + j);
+a = 2 * 2 + 3;
+alert(a);
+b = 2 * (2 + 3);
+alert(b);
 
-// задание 4
-let z = 10;
-let x = 5;
-result = z + x;
-alert(result);
-let v = 7;
-result = (c + d);
-alert(result);
+
+c = (2 * 8) / 4;
+
+alert(c);
