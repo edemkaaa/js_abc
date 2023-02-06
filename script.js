@@ -1,27 +1,20 @@
 "use strict";
 // задание 1
-let a;
-alert(a);
+let num = 2004;
+console.log(num);
 
 // задание 2
-let b = null;
-alert(b);
+let num1 = 5;
+let num2 = 10;
+let num3 = 11;
+
+console.log(num1);
+console.log(num2);
+console.log(num3);
 
 // задание 3
-let c = true;
-alert(c);
+console.log(edem);
+console.log('edem');
 
 // задание 4
-let d = false;
-alert(d);
-
-// задание 5
-let z = 'edem';
-let x = '5';
-alert(z * x);
-
-// задание 6
-alert( 10 / 0);
-
-// задание 7
-alert( -10 / 0);
+alert(abc);
