@@ -1,10 +1,14 @@
 "use strict";
 
-let arr = ["a", "b", "c", "d", "e"];
-document.write(
-  `Длина до удаления: ${arr.length}<br>Массив до удаления: ${arr}`
-);
-delete arr[1], delete arr[3];
-document.write(
-  `Длина после удаления: ${arr.length}<br>Массив после удаления: ${arr}`
-);
+let obj = {
+  1: "Monday",
+  2: "Tuesday",
+  3: "Wednesday",
+  4: "Thursday",
+  5: "Friday",
+  6: "Saturday",
+  7: "Sunday",
+};
+for (let index = 0; index < 7; index++) {
+  document.write(`${obj[index + 1]}<br>`);
+}
