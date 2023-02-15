@@ -1,5 +1,7 @@
 "use strict";
 
-let obj = {};
-(obj["a"] = 1), (obj["b"] = 2), (obj["c"] = 3);
-console.log(obj);
+let obj = { 8: "a", 5: "b", 2: "c" };
+
+console.log(obj[5]);
+console.log(obj[2]);
+console.log(obj[8]);
