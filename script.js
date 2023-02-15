@@ -1,6 +1,7 @@
-let num1 = 47;
-num1 += 7;
-num1 -= 18;
-num1 *= 10;
-num1 /= 15;
-console.log(num1);
+"use strict";
+
+let num = 50;
+num++;
+num++;
+num--;
+alert(num);
