@@ -1,7 +1,5 @@
 "use strict";
 
-let obj = { 8: "a", 5: "b", 2: "c" };
-
-console.log(obj[5]);
-console.log(obj[2]);
-console.log(obj[8]);
+let obj = { x: 1, y: 2, z: 3 }; 
+let keys = Object.keys(obj);
+console.log(keys);
