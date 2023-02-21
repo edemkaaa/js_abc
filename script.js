@@ -2,28 +2,78 @@
 
 
 // 1
-let num = 3;
+let num1 = -10;
+let num2 = -10;
 
-if (num > 0 && num < 5) {
+if (num1 >= 0 || num2 >= 0) {
 	console.log('+++');
 } else {
-	console.log('---');
+	console.log('---'); // это
 }
 
 // 2
-let num = 3;
+let num1 = 0;
+let num2 = 0;
 
-if (num >= 10 && num <= 20) {
-	console.log('+++');
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++'); // теперь это
 } else {
 	console.log('---');
 }
 
 // 3
-let num = 3;
-let num1 = 4;
-if (num <= 1 && num1 >= 3) {
-	console.log('+++');
+let num1 = 0;
+let num2 = 5;
+
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++'); // опять это
 } else {
 	console.log('---');
 }
+
+// 4
+let num1 = 5;
+let num2 = 5;
+
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++'); // и снова это
+} else {
+	console.log('---');
+}
+
+// 5
+let num1 = -5;
+let num2 = 15;
+
+if (num1 >= 0 || num2 >= 0) { 
+	console.log('+++'); // правда
+} else {
+	console.log('---');
+}
+
+// 6 
+let num = 1;
+
+if (num == 0 || num == 1) {
+	console.log('+++'); // это
+} else {
+	console.log('---');
+}
+
+// 7 
+let num = 2;
+
+if (num == 0 || num == 1) {
+	console.log('+++');
+} else {
+	console.log('---'); // ура это
+}
+
+// 8
+let num = 2;
+
+if (num == 0 || num == 1 || num == 2) {
+	console.log('+++'); // правда
+} else {
+	console.log('---');
+} 
