@@ -1,15 +1,10 @@
 "use strict";
-// 1
-const arr = ['a', 'b', 'c'];
-arr[1] = '!';
-console.log(arr); // a,!,c
 
-// 2
-const arr = ['a', 'b', 'c'];
-arr = [1, 2, 3];
-console.log(arr); // ниче
+const a = 1;
+const b = 2;
+const c = 3;
+const d = 4;
+const e = 5;
+const v = b + c;
 
-// 3
-const arr = ['a', 'b', 'c'];
-arr = ['a', 'b', 'c'];
-console.log(arr); // капче
+console.log(b);
