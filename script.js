@@ -1,5 +1,9 @@
 "use strict";
 
+// ошибка 1
 let obj = {x: 1, y: 2, z: 3};
+console.log(obj['x']);
+// ошибка 2
+let obj1 = {x: 1, y: 2, z: 3};
 let key = 'x';
-console.log(obj[key]); // выведет 1
+console.log(obj1[key]);
