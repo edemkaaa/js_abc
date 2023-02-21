@@ -2,50 +2,28 @@
 
 
 // 1
-let test1 = '3';
-let test2 = '3';
+let num = 3;
 
-if (test1 != test2) {
-    console.log('+++');
+if (num > 0 && num < 5) {
+	console.log('+++');
 } else {
-      console.log('---'); // выведет эту строку
+	console.log('---');
 }
 
 // 2
-let test3 = '3';
-let test4 = '3';
+let num = 3;
 
-if (test3 !== test4) {
-    console.log('+++');
+if (num >= 10 && num <= 20) {
+	console.log('+++');
 } else {
-      console.log('---'); // выведет эту строку
+	console.log('---');
 }
 
 // 3
-let test5 = 3;
-let test6 = '3';
-
-if (test5 != test6) {
-    console.log('+++');
+let num = 3;
+let num1 = 4;
+if (num <= 1 && num1 >= 3) {
+	console.log('+++');
 } else {
-    console.log('---'); // выведет эту строку
-}
-
-// 4
-let test7 = 3;
-let test8 = '3';
-
-if (test7 !== test8) {
-    console.log('+++'); // выведет эту строку
-} else {
-    console.log('---');
-}
-// 5
-let test9 = 3;
-let test10 = 2;
-
-if (test9 !== test10) {
-      console.log('+++'); // выведет эту строку
-} else {
-    console.log('---');
+	console.log('---');
 }
