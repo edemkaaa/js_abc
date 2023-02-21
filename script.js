@@ -1,25 +1,25 @@
 "use strict";
 // 1
-let test = {x: 1, y: 2, z: 3};
-console.log(test); // объект
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
+
+arr1[0] = 'a';
+console.log(arr2); // a,2,3
+
 // 2
-let test = {x: 1, y: 2, z: 3};
-console.log(test.x); // примитив
-// 3
-let test = [1, 2, 3];
-console.log(test); // объект
-// 4
-let test = [1, 2, 3];
-console.log(test[1]); // примитив
-// 5
-let test1 = [1, 2, 3];
-let test2 = 1;
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
 
-console.log(test1); // объект
-// 6 
-let test1 = [1, 2, 3];
-let test2 = 1;
+arr1[0] = 'a';
+arr2[1] = 'b';
 
-console.log(test1[test2]); // примитив
+console.log(arr1); // a,b,3
 
-// string boolean number null
+// 3 
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
+
+arr1[0] = 'a';
+arr2[0] = 'b';
+
+console.log(arr2); // b,2,3
