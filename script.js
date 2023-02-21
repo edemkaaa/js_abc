@@ -1,8 +1,27 @@
 "use strict";
-
+// 1
 let num = 3;
-if (num == 0 || num > 1 && num < 5 ) { // если num равен 0 ИЛИ num больше 1 И num < 5 то сработает
-	console.log('+++');
+
+if ((num > 5) && (num < 10 || num == 20)) {
+    console.log('+++');
 } else {
-	console.log('---');
+    console.log('---'); // сработает это
+}
+
+// 2
+let num1 = 3;
+
+if ((num1 > 5 || num1 > 0) && (num1 < 3)) {
+    console.log('+++');
+} else {
+    console.log('---'); // сработает это
+}
+
+// 3
+let num2 = 3;
+
+if ((num2 == 9 || num2 > 10) && (num2 < 20 || num2 > 20) && (num2 < 30)) {
+    console.log('+++');
+} else {
+    console.log('---'); // сработает это
 }
