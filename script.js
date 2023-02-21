@@ -2,8 +2,10 @@
 
 // ошибка 1
 let obj = {x: 1, y: 2, z: 3};
-console.log(obj['x']);
+let prop = 'x';
+console.log(obj[prop]);
+
 // ошибка 2
 let obj1 = {x: 1, y: 2, z: 3};
-let key = 'x';
-console.log(obj1[key]);
+let prop1 = 'x';
+console.log(obj1[prop1]);
