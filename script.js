@@ -1,11 +1,20 @@
 "use strict";
 
 // ошибка 1
-let obj = {x: 1, y: 2, z: 3};
-let prop = 'x';
-console.log(obj[prop]);
+let key = 'x';
 
-// ошибка 2
-let obj1 = {x: 1, y: 2, z: 3};
-let prop1 = 'x';
-console.log(obj1[prop1]);
+let obj = {
+	[key]: 1,
+	y: 2,
+	z: 3
+};
+// задание 2
+let key1 = "x";
+let key2 = "y";
+let key3 = "z";
+
+let obj2 = {
+  x: [key1],
+  y: [key2],
+  z: [key3],
+};
