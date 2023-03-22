@@ -1,27 +1,45 @@
-"use strict";
-// 1
-let num = 3;
-
-if ((num > 5) && (num < 10 || num == 20)) {
-    console.log('+++');
-} else {
-    console.log('---'); // сработает это
+// задание 1
+let arr = [];
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 1; j <= 5; j++) {
+        arr[i].push(j);
+    }
 }
-
-// 2
-let num1 = 3;
-
-if ((num1 > 5 || num1 > 0) && (num1 < 3)) {
-    console.log('+++');
-} else {
-    console.log('---'); // сработает это
+console.log(arr);
+// задание 2
+let arr1 = [];
+for (let i = 0; i < 3; i++) {
+    arr1[i] = [];
+    for (let j = 1; j <= 5; j++) {
+        arr1[i].push(j);
+    }
 }
-
-// 3
-let num2 = 3;
-
-if ((num2 == 9 || num2 > 10) && (num2 < 20 || num2 > 20) && (num2 < 30)) {
-    console.log('+++');
-} else {
-    console.log('---'); // сработает это
+console.log(arr1);
+// задание 3
+let arr2 = [];
+for (let i = 0; i < 3; i++) {
+    arr2[i] = [];
+    for (let j = 1; j <= 5; j++) {
+        arr2[i].push(j);
+    }
 }
+console.log(arr2);
+// задание 4
+let arr4 = [];
+    for (let i = 0; i < 3; i++) {
+    arr4[i] = [];
+    for (let j = 1; j <= 5; j++) {
+        arr4[i].push(j);
+    }
+}
+console.log(arr4);
+// задание 5
+let arr5 = [];
+for (let i = 0; i < 3; i++) {
+    arr5[i] = [];
+    for (let j = 1; j <= 5; j++) {
+        arr5[i].push(j);
+    }
+}
+console.log(arr5);
